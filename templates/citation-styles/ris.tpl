@@ -17,7 +17,7 @@
 {assign var="containerTitleShort" value="container-title-short"}
 TY - JOUR
 {foreach from=$citationData->author item="author"}
-AU - {$author->given} {$author->family}
+AU - {$author->given} {$author->middle} {$author->family}
 {/foreach}
 PY - {$citationData->issued->raw|date_format:"%Y/%m/%d"}
 Y2 - {$citationData->accessed->raw|date_format:"%Y/%m/%d"}
