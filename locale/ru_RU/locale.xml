@@ -22,6 +22,7 @@
 	<message key="plugins.generic.citationStyleLanguage.style.chicago-author-date">Chicago</message>
 	<message key="plugins.generic.citationStyleLanguage.style.harvard-cite-them-right">Harvard</message>
 	<message key="plugins.generic.citationStyleLanguage.style.ieee">IEEE</message>
+	<message key="plugins.generic.citationStyleLanguage.style.gost">ГОСТ</message>
 	<message key="plugins.generic.citationStyleLanguage.style.modern-language-association">MLA</message>
 	<message key="plugins.generic.citationStyleLanguage.style.turabian-fullnote-bibliography">Turabian</message>
 	<message key="plugins.generic.citationStyleLanguage.style.vancouver">Vancouver</message>
