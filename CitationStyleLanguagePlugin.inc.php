@@ -114,6 +114,11 @@ class CitationStyleLanguagePlugin extends GenericPlugin {
 				'title' => __('plugins.generic.citationStyleLanguage.style.vancouver'),
 				'isEnabled' => true,
 			),
+			array(
+				'id' => 'gost',
+				'title' => __('plugins.generic.citationStyleLanguage.style.gost'),
+				'isEnabled' => true,
+			),
 		);
 
 		// If hooking in to add a custom .csl file, add a `useCsl` key to your
@@ -313,7 +318,7 @@ class CitationStyleLanguagePlugin extends GenericPlugin {
 		$citationData = new stdClass();
 		$citationData->type = 'article-journal';
 		$citationData->id = $article->getId();
-		$citationData->title = htmlspecialchars($article->getLocalizedFullTitle());
+		$citationData->title = $article->getLocalizedFullTitle();
 		$citationData->{'container-title'} = htmlspecialchars($journal->getLocalizedName());
 		$citationData->{'publisher-place'} = $this->getSetting($journal->getId(), 'publisherLocation');
 		$citationData->abstract = htmlspecialchars($article->getLocalizedAbstract());
