@@ -38,6 +38,9 @@ msgstr "Harvard"
 msgid "plugins.generic.citationStyleLanguage.style.ieee"
 msgstr "IEEE"
 
+msgid "plugins.generic.citationStyleLanguage.style.gost"
+msgstr "GOST"
+
 msgid "plugins.generic.citationStyleLanguage.style.modern-language-association"
 msgstr "MLA"
 
